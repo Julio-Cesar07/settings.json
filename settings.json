@@ -1,0 +1,182 @@
+{
+    "prisma.showPrismaDataPlatformNotification": false,
+    "terminal.integrated.fontFamily": "Consolas",
+    "editor.suggestSelection": "first", // <== Selecionar a primeira sugestão
+    "terminal.integrated.shellIntegration.enabled": true,
+    "terminal.integrated.tabs.showActiveTerminal": "always",
+    "javascript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    // arquivos e pastas
+    "files.associations": {
+        ".sequelizerc": "javascript",
+        ".stylelintrc": "json",
+        "*.tsx": "typescriptreact",
+        ".env.*": "dotenv",
+        ".prettierrc": "json"
+    },
+    // typescript
+    "typescript.tsserver.log": "off",
+    "typescript.suggest.autoImports": true,
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    // "typescript.preferences.preferTypeOnlyAutoImports": true,
+    // extensão material icon theme
+    "material-icon-theme.folders.associations": {
+        "adapters": "contract",
+        "grpc": "pipe",
+        "kube": "kubernetes",
+        "main": "lib",
+        "websockets": "pipe",
+        "implementations": "core",
+        "protos": "pipe",
+        "entities": "class",
+        "kafka": "pipe",
+        "use-cases": "functions",
+        "migrations": "tools",
+        "schemas": "class",
+        "useCases": "functions",
+        "typeorm": "database",
+        "_shared": "shared",
+        "mappers": "meta",
+        "fakes": "mock",
+        "modules": "components",
+        "subscribers": "messages",
+        "domain": "class",
+        "protocols": "contract",
+        "infra": "app",
+        "view-models": "views",
+        "presentation": "template",
+        "dtos": "typescript",
+        "http": "container",
+        "providers": "include",
+        "factories": "class",
+        "repositories": "mappings",
+        "eslint-config": "tools",
+    },
+    "material-icon-theme.files.associations": {
+        "tsconfig.json": "tune",
+        "*.webpack.js": "webpack",
+        "*.proto": "3d",
+        "ormconfig.json": "database"
+    },
+    "material-icon-theme.languages.associations": {
+        "dotenv": "tune"
+    },
+    "material-icon-theme.activeIconPack": "nest",
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.folders.color": "#6272a4",
+    // eslint e prettier
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "graphql",
+        "typescript"
+    ],
+    "editor.inlineSuggest.enabled": true,
+    "git.confirmSync": false,
+    // prisma
+    "[prisma]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.env.linux": {},
+    "auto-close-tag.activationOnLanguage": [
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        // "javascript",
+        "javascriptreact",
+        // "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ],
+    "window.titleBarStyle": "native",
+    // go
+    "go.lintOnSave": "file",
+    "go.lintTool": "staticcheck",
+    "go.useLanguageServer": true,
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always"
+        }
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "go.vetOnSave": "package",
+    "gopls": {
+        "ui.diagnostic.staticcheck": true
+    },
+    "workbench.iconTheme": "symbols",
+    "symbols.hidesExplorerArrows": false,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "JetBrains Mono", // <== Fonte
+    "editor.fontSize": 13,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [80, 120], // máximo de colunas 
+    "workbench.startupEditor": "newUntitledFile", // Abre o vscode com um arquivo txt
+    "editor.renderLineHighlight": "gutter", // Mostra a linha selecionada no número
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders": false,
+    "editor.semanticHighlighting.enabled": false,
+    "breadcrumbs.enabled": false, // esconde caminho do arquivo na parte de cima
+    "workbench.activityBar.location": "hidden", // Barra lateral, pode ser acessado com Ctrl + q
+    "editor.minimap.enabled": false, // tira o minimap
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "workbench.statusBar.visible": false,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": ".eslint*, prettier*, tsconfig*, vite*, package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+        "tailwind.config*": "tailwind.config*, postcss.config*",
+        ".env.local": ".env*",
+        ".env": ".env*",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset",
+    },
+    "apc.header": {
+        "height": 36,
+        "fontSize": 14
+    },
+    "apc.listRow": {
+        "height": 24,
+        "fontSize": 14
+    },
+    "apc.stylesheet": {
+        ".title-label > h2": "display: none",
+        ".pane-body": "padding-left: 8px; padding-top: 0px;",
+    },
+    "apc.font.family": "Inter",
+    "console-ninja.featureSet": "Community",
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+}
