@@ -1,0 +1,26 @@
+Extensions installed:
+akamud.vscode-theme-onedark
+drcika.apc-extension
+fernandakipper.reactcodesnippets
+formulahendry.auto-close-tag
+jdinhlife.gruvbox
+miguelsolorio.min-theme
+miguelsolorio.symbols
+ms-vscode-remote.remote-wsl
+pkief.material-icon-theme
+qwtel.sqlite-viewer
+rocketseat.theme-omni
+usernamehw.errorlens
+wayou.vscode-todo-highlight
+
+Extensions installed on WSL: Ubuntu:
+anweber.vscode-httpyac
+bradlc.vscode-tailwindcss
+chrmarti.regex
+dbaeumer.vscode-eslint
+golang.go
+ms-vsliveshare.vsliveshare
+prisma.prisma
+ritwickdey.liveserver
+shd101wyy.markdown-preview-enhanced
+wallabyjs.console-ninja
