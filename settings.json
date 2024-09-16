@@ -107,7 +107,6 @@
         "HTML (Eex)",
         "plist"
     ],
-    "window.titleBarStyle": "native",
     // go
     "go.lintOnSave": "file",
     "go.lintTool": "staticcheck",
@@ -160,9 +159,6 @@
         "*.db3": "${capture}.${extname}-*",
         "*.sdb": "${capture}.${extname}-*",
         "*.s3db": "${capture}.${extname}-*"
-    },
-    "apc.electron": {
-        "titleBarStyle": "hiddenInset",
     },
     "apc.header": {
         "height": 36,
